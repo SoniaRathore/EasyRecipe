@@ -1,0 +1,97 @@
+Body{
+	text-align: center;
+	background-color:#aa80ff;
+	background:url(cntpge3.jpg);
+}
+Header{
+	text-align: center-left;
+	height:200px;
+	width:100%;
+	z-index: 5;
+	position: fixed;
+	background-color:#c82d28;
+	background:url(headerimage5.jpg);
+	font-size: 40;
+	font-family: verdana, sans-serif;
+top:1.5px;
+
+	}
+
+#banner{
+	width:100%;
+	height:68px;
+	top:200px;
+	z-index:5;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+border-style: double;
+border-color:green;
+position:fixed;
+background-color:#cffde5;
+
+}
+#container{
+	height:1500px;
+	text-align:center;
+	width:98%;
+	top:240px;
+	--background:url(bckgrndcntpg.jpg);
+	position:relative;
+	--background:#cffde5;
+}
+#contactform{
+	height:40%;
+	text-align:center;
+	width:40%;
+	margin-left: 30%;
+	margin-right: 20%;
+	bottom:5%;
+	top:auto;
+	position:center;
+	position:fixed;
+	background:url(cntpge2.jpg);
+	--background:#cffde5;
+
+}
+h1{
+	text-align:center;
+	font-size: 75px;
+	font-family: Comic sans;
+}
+H3{
+text-align: left;
+text-decoration: inherit;
+font-size: 25;
+font-style: normal;
+color: red;
+border-style: dotted;
+border-color: blue;
+border-width: thin;
+}
+
+H2{
+font-size: 25;
+color: #ffffff;
+font-family: verdana, monospace;
+
+}
+
+P{
+color:#ffffff;
+font-size:;
+font-family: Times sans-serif, sans-serif;
+}
+Ul{
+  text-align: left;
+  text-decoration: inherit;
+  font-size: 25;
+  font-style: normal;
+  color: red;
+
+}
+Ol{
+  color: blue;
+  font-size: 18;
+  font-family: verdana, sans-serif;
+}
