@@ -1,7 +1,9 @@
 Body{
-	
+
 	text-align: center;
 	background-color:#aa80ff;
+	background:url(bckgrndcntpge.jpg);
+	height: 1500px;
 }
 Header{
 	text-align: center-left;
@@ -18,8 +20,8 @@ top:1.5px;
 	}
 #banner{
 	width:100%;
-	height:75px;
-	top:205px;
+	height:68px;
+	top:200px;
 	z-index:5;
   text-align: center;
   font-size: 30px;
@@ -31,15 +33,30 @@ background-color:#cffde5;
 
 }
 #container{
-	height:1500px;
+	height:1000px;
 	text-align:center;
-	width:101%;
-	top:270px;
+	width:75%;
+	top:250px;
+	margin-left: 10%;
+	margin-right: 0%;
+	background:url(rsz_1table.jpg);
 	position:relative;
-	background:#cffde5;
-	
-	
+	--background:#cffde5;
 }
+/*#contactform{
+	height:40%;
+	text-align:center;
+	width:40%;
+	margin-left: 30%;
+	margin-right: 20%;
+bottom:5%;
+	top:auto;
+	position:center;
+	position:fixed;
+	background:url(cntpge2.jpg);
+	--background:#cffde5;
+
+}*/
 h1{
 	text-align:center;
 	font-size: 75px;
@@ -58,13 +75,13 @@ border-width: thin;
 
 H2{
 font-size: 25;
-color:darkblue;
+color:#ffffff;
 font-family: verdana, monospace;
 
 }
 
 P{
-color: blue;
+color: #ffffff;
 font-size: 18;
 font-family: verdana, sans-serif;
 }
@@ -77,7 +94,7 @@ Ul{
 
 }
 Ol{
-  color: blue;
+  color: #ffffff;
   font-size: 18;
   font-family: verdana, sans-serif;
 }
