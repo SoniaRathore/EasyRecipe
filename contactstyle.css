@@ -1,7 +1,7 @@
 Body{
 	text-align: center;
 	background-color:#aa80ff;
-	background:url(cntpge3.jpg);
+	background:url(backgroundImages/cntpge3.jpg);
 }
 Header{
 	text-align: center-left;
@@ -36,7 +36,7 @@ background-color:#cffde5;
 	text-align:center;
 	width:98%;
 	top:240px;
-	--background:url(bckgrndcntpg.jpg);
+	--background:url(bckgrndcntpge.jpg);
 	position:relative;
 	--background:#cffde5;
 }
@@ -50,7 +50,7 @@ background-color:#cffde5;
 	top:auto;
 	position:center;
 	position:fixed;
-	background:url(cntpge2.jpg);
+	background:url(backgroundImages/cntpge2.jpg);
 	--background:#cffde5;
 
 }

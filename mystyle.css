@@ -2,7 +2,7 @@ Body{
 
 	text-align: center;
 	background-color:#aa80ff;
-	background:url(bckgrndcntpge.jpg);
+	background:url(backgroundImages/bckgrndcntpge.jpg);
 	height: 1500px;
 }
 Header{
@@ -39,7 +39,7 @@ background-color:#cffde5;
 	top:250px;
 	margin-left: 10%;
 	margin-right: 0%;
-	background:url(rsz_1table.jpg);
+	background:url(backgroundImages/rsz_1table.jpg);
 	position:relative;
 	--background:#cffde5;
 }
