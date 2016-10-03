@@ -1,0 +1,23 @@
+Body{
+	text-align: center;
+	--background-color:#aa80ff;
+--background:url(backgroundImages/cntpge3.jpg);
+}
+Header{
+	text-align: center-left;
+	}
+footer{
+	background-color: green;
+	border-width: thick;
+	border-style: groove;
+	border-color: red;
+	height: 45px;
+	text-align: center;
+}
+#navigation{
+padding: 5px;
+animation-duration: 4s;
+--background-color: red;
+margin-bottom: 0%;
+margin-top: 100%;
+}
