@@ -21,3 +21,10 @@ animation-duration: 4s;
 margin-bottom: 0%;
 margin-top: 100%;
 }
+#slider{
+	height: 350px;
+	width: 450px;
+	border-style: groove;
+	border-color: black;
+overflow: hidden;
+}
