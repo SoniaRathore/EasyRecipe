@@ -10,6 +10,7 @@ Header{
 	border-color: red;
 	height: 45px;
 	text-decoration-color: green;
+	font-size: 25px;
 	}
 footer{
 	background-color: white;
@@ -18,6 +19,7 @@ footer{
 	border-color: red;
 	height: 45px;
 	text-align: center;
+	font-size: 25px;
 }
 #navigation{
 padding: 5px;
