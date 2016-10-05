@@ -1,51 +1,55 @@
 Body{
-	text-align: center;
-	--background-color:#aa80ff;
---background:url(backgroundImages/cntpge3.jpg);
+padding: 0%;
+
 }
 Header{
-	text-align: center-left;
+	text-align: center;
+	background-color: white;
+	border-width: thick;
+	border-style: outset;;
+	border-color: red;
+	height: 45px;
+	text-decoration-color: green;
 	}
 footer{
-	background-color: green;
+	background-color: white;
 	border-width: thick;
-	border-style: groove;
+	border-style: outset;;
 	border-color: red;
 	height: 45px;
 	text-align: center;
 }
 #navigation{
 padding: 5px;
-animation-duration: 5s;
 --background-color: red;
 margin-bottom: 0%;
 margin-top: 100%;
+
 }
 .slider{
 	height: 400px;
 	width: 500px;
-	border-style: groove;
-	border-color: black;
-overflow: hidden;
+	border: 5px solid red;
+	border-style:inset ;
+	margin: 50px auto;
+	overflow: hidden;
 position: relative;
 
 }
 
-figure{
-	position: inherit;
-}
 .img{
 	position:absolute;
 	height:400px;
-	width:350px;
-	animation: mm 10s infinite;
-		opacity: 0;
+	width:500px;
+	animation: mm 15s infinite;
+	opacity: 0;
 
 }
-@keyframes mm {
 
-	10%{opacity: 1};
-	40%{opacity: 0};
+@keyframes mm {
+	10%{opacity: 2};
+	20%{opacity: 1};
+	30%{opacity: 0};
 }
 
 .img:nth-child(0){	animation-delay: 0s}

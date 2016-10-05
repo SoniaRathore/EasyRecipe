@@ -32,6 +32,7 @@ position:fixed;
 background-color:#cffde5;
 
 }
+
 footer{
 	background-color: blue;
 	border-width: thick;
@@ -43,12 +44,7 @@ footer{
 	text-align: center;
 	text-color:black;
 }
-#navigation{
-padding: 5px;
-animation-duration: 4s;
---background-color: red;
 
-}
 #container{
 	height:1000px;
 	text-align:center;
