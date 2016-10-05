@@ -16,15 +16,38 @@ footer{
 }
 #navigation{
 padding: 5px;
-animation-duration: 4s;
+animation-duration: 5s;
 --background-color: red;
 margin-bottom: 0%;
 margin-top: 100%;
 }
-#slider{
-	height: 350px;
-	width: 450px;
+.slider{
+	height: 400px;
+	width: 500px;
 	border-style: groove;
 	border-color: black;
 overflow: hidden;
+position: relative;
+
 }
+
+figure{
+	position: inherit;
+}
+.img{
+	position:absolute;
+	height:400px;
+	width:350px;
+	animation: mm 10s infinite;
+		opacity: 0;
+
+}
+@keyframes mm {
+
+	10%{opacity: 1};
+	40%{opacity: 0};
+}
+
+.img:nth-child(0){	animation-delay: 0s}
+.img:nth-child(1){	animation-delay: 5s}
+.img:nth-child(2){	animation-delay: 10s}
